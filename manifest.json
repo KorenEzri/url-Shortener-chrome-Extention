@@ -6,12 +6,22 @@
   "version": "1.0",
 
   "browser_action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "./128.png"
+    }
   },
 
   "background": {
     "scripts": ["popup.js"],
     "persistent": false
   },
-  "permissions": ["activeTab", "http://*/", "storage"]
+  "permissions": [
+    "activeTab",
+    "http://*/",
+    "storage",
+    "tabs",
+    "https://url-shortener-task.korenezri.repl.co/",
+    "https://url-shortener-task.korenezri.repl.co/*"
+  ]
 }
