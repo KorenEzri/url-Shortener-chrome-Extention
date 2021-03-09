@@ -20,6 +20,7 @@
   "permissions": [
     "activeTab",
     "http://*/",
+    "storage",
     "tabs",
     "https://url-shortener-task.korenezri.repl.co/",
     "https://url-shortener-task.korenezri.repl.co/*"
